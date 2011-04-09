@@ -1,4 +1,2 @@
 <h2>Listing Restaurants</h2>
-<%@restaurants.each do |restaurant| %>
-  <%=render :partial=>'restaurant', :locals=>{:restaurant=>restaurant} %>
-<% end %>
+<%= render @restaurants %>
