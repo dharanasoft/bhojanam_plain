@@ -1,0 +1,8 @@
+<h2>Listing Restaurants</h2>
+<%=@restaurants.each do |restaurant| %>
+  <div class="restaurant">
+    <h3><%=restaurant.name%></h3>
+    <p class="address"><%=restaurant.address%></p>
+    <p><%=restaurant.description%><p>
+  </div>
+<% end %>
