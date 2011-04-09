@@ -1,5 +1,8 @@
 <div class="restaurant">
   <h3><%=link_to restaurant.name, restaurant %></h3>
+  <ul class="action_links">
+    <li><%=link_to "edit", edit_restaurant_path(restaurant) %></li>
+  </ul>
   <p class="address"><%=restaurant.address%></p>
   <p><%=restaurant.description%><p>
 </div>
