@@ -1,4 +1,6 @@
 BhojanamPlain::Application.routes.draw do
+  resources :reviews
+
   resources :restaurants
 
   # The priority is based upon order of creation:
