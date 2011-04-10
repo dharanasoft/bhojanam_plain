@@ -64,6 +64,63 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* line 1, ../../app/stylesheets/_restaurants.sass */
+.restaurant {
+  float: left;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 670px;
+  border-bottom: 1px solid #777777;
+  padding: 1em 0;
+}
+/* line 147, ../../../../.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html .restaurant {
+  overflow-x: hidden;
+}
+/* line 6, ../../app/stylesheets/_restaurants.sass */
+.restaurant h3 {
+  float: left;
+  clear: both;
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.5em;
+}
+/* line 11, ../../app/stylesheets/_restaurants.sass */
+.restaurant h3 a {
+  color: #222222;
+  text-decoration: none;
+}
+/* line 15, ../../app/stylesheets/_restaurants.sass */
+.restaurant ul.action_links {
+  float: left;
+  margin: 0.5em 0;
+  clear: left;
+}
+/* line 19, ../../app/stylesheets/_restaurants.sass */
+.restaurant ul.action_links li {
+  display: inline;
+  padding: 4px;
+  background-color: #eeeeee;
+}
+/* line 23, ../../app/stylesheets/_restaurants.sass */
+.restaurant ul.action_links li a {
+  color: #222222;
+  text-decoration: none;
+}
+/* line 26, ../../app/stylesheets/_restaurants.sass */
+.restaurant p.address {
+  float: left;
+  clear: both;
+  font-size: 1em;
+  color: #aaaaaa;
+}
+/* line 31, ../../app/stylesheets/_restaurants.sass */
+.restaurant p {
+  float: left;
+  clear: both;
+  font-family: "ubuntu";
+}
+
 /* line 5, ../../app/stylesheets/screen.sass */
 #header {
   width: 950px;
@@ -116,41 +173,44 @@ footer, header, hgroup, menu, nav, section {
 #navigation ul li a {
   color: #333333;
   text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
 }
-/* line 30, ../../app/stylesheets/screen.sass */
+/* line 31, ../../app/stylesheets/screen.sass */
 #navigation ul li.selected {
   background-color: #222222;
   padding: 5px;
 }
-/* line 33, ../../app/stylesheets/screen.sass */
+/* line 34, ../../app/stylesheets/screen.sass */
 #navigation ul li.selected a {
   color: #eeeeee;
 }
-/* line 35, ../../app/stylesheets/screen.sass */
+/* line 36, ../../app/stylesheets/screen.sass */
 #navigation ul li:hover {
   padding: 7px;
 }
 
-/* line 38, ../../app/stylesheets/screen.sass */
+/* line 39, ../../app/stylesheets/screen.sass */
 #content {
   width: 950px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 40, ../../app/stylesheets/screen.sass */
+/* line 41, ../../app/stylesheets/screen.sass */
 #content #left {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 670px;
+  margin-top: 1em;
 }
 /* line 147, ../../../../.rvm/gems/ruby-1.9.2-p180@r3/gems/compass-0.11.beta.5/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html #content #left {
   overflow-x: hidden;
 }
-/* line 42, ../../app/stylesheets/screen.sass */
+/* line 44, ../../app/stylesheets/screen.sass */
 #content #right {
+  margin-top: 1em;
   display: inline;
   float: left;
   margin-right: 10px;
@@ -160,7 +220,7 @@ footer, header, hgroup, menu, nav, section {
 * html #content #right {
   overflow-x: hidden;
 }
-/* line 44, ../../app/stylesheets/screen.sass */
+/* line 47, ../../app/stylesheets/screen.sass */
 #content #right .sidebar_box {
   display: inline;
   float: left;
@@ -174,7 +234,7 @@ footer, header, hgroup, menu, nav, section {
   overflow-x: hidden;
 }
 
-/* line 48, ../../app/stylesheets/screen.sass */
+/* line 51, ../../app/stylesheets/screen.sass */
 #footer {
   width: 950px;
   margin: 0 auto;

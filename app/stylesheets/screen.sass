@@ -1,7 +1,7 @@
 
 @import "compass/reset"
 @import "blueprint/grid"
-
+@import "restaurants"
 #header
   +container
   h1
@@ -27,6 +27,7 @@
       a
         color: #333
         text-decoration: none
+        font-family: "Ubuntu", sans-serif
     li.selected
       background-color: #222
       padding: 5px
@@ -39,7 +40,9 @@
   +container
   #left
     +column(17)
+    margin-top: 1em
   #right
+    margin-top: 1em
     +column(6)
     .sidebar_box
       +column(5)

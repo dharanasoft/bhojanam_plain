@@ -1,7 +1,7 @@
 .restaurant
   %h3= link_to restaurant.name, restaurant
+  %p.address= restaurant.address
   %ul.action_links
     %li= link_to 'edit', edit_restaurant_path(restaurant)
     %li= link_to 'delete',restaurant_path(restaurant), :confirm=>"Are you sure you want to delete?", :method=>"delete"
-  %p.address= restaurant.address
   %p= restaurant.description
