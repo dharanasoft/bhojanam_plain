@@ -1,4 +1,3 @@
-<h2>Listing Restaurants</h2>
-<%= render @restaurants %>
-
-<%= link_to 'New Restaurant', new_restaurant_path %>
+%h2 Listing Restaurants
+= render @restaurants
+%a#new_restaurant.action_link.big_button(href='#{new_restaurant_path}') New Restaurant

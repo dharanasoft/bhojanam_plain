@@ -10,6 +10,9 @@ gem 'jquery-rails'
 gem 'formtastic'
 # Use unicorn as the web server
 # gem 'unicorn'
+gem 'haml', '~> 3.1.0.alpha.147'
+gem 'sass', '~> 3.1.0.alpha.252'
+gem 'compass', '~> 0.11.beta.5'
 
 # Deploy with Capistrano
 # gem 'capistrano'
